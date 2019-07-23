@@ -1,0 +1,35 @@
+.sub-cl .MuiButton-containedPrimary
+{
+  background-color: #186ab4;
+}
+.sub-cl .makeStyles-avatar-136
+{
+  display:none;
+}
+.sub-cl .makeStyles-paper-135
+{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.sub-cl .makeStyles-paper-495
+{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.sub-cl .makeStyles-paper-315
+{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.sub-cl .makeStyles-paper-315
+{
+  margin-top: 10px;
+  font-size: 20px;
+}
+@media only screen and (min-height: 850px)
+{
+.sub-cl .MuiContainer-root 
+{
+  margin-bottom: 17rem !important;
+}
+}

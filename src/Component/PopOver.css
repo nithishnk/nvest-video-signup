@@ -1,0 +1,10 @@
+.but-sty .MuiButton-contained
+{
+  background-color: #186ab4;
+  color: white;
+ 
+}
+.but-sty .MuiButton-contained:hover
+{
+  background-color:rgba(48,79,254,1);
+}

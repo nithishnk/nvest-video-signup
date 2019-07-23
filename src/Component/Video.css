@@ -1,0 +1,66 @@
+#video-laptop 
+{
+  position: relative;
+  padding-top: 13%;
+  padding-bottom: 20%;
+  height: 0;
+}
+
+#video-laptop iframe 
+{
+  box-sizing: border-box;
+  background: url(http://i.stack.imgur.com/zZNgk.png) center center no-repeat;
+  background-size: contain;
+  padding: 2.1% 28.3% 3.5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1900px) , screen and (min-height: 900px) 
+{
+  #video-laptop 
+  {
+    position: relative;
+    padding-top: 43%;
+    padding-bottom: 20%;
+    height: 0;
+  }
+  #video-laptop iframe 
+  {
+    box-sizing: border-box;
+    background: url(http://i.stack.imgur.com/zZNgk.png) center center no-repeat;
+    background-size: contain;
+    padding: 8.6% 15.5% 11.5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1400px) 
+{
+  #video-laptop 
+  {
+      position: relative;
+      padding-top: 25%;
+      padding-bottom: 29%;
+      height: 0;
+  }
+  #video-laptop iframe 
+  {
+      box-sizing: border-box;
+      background: url(http://i.stack.imgur.com/zZNgk.png) center center no-repeat;
+      background-size: contain;
+      padding: 3.9% 15.5% 6.5%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+}
+   

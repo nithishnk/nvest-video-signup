@@ -1,0 +1,67 @@
+.btn-clr .MuiButton-containedPrimary
+{
+  background-color:#186ab4;
+  
+}
+.btn-clr .MuiButton-containedPrimary:hover
+{
+  background-color:#186ab4;
+}
+.btn-clr .MuiStepIcon-root
+{
+  background-color:#186ab4 !important; 
+}
+.sze
+{
+  font-size: 31px;
+  color: #186ab4; 
+}
+.pos-btn-right
+{
+  display: flex;
+  position: absolute !important;
+  top: 10vw;
+  right: 15vw;
+}
+.pos-btn-left 
+{
+  display: flex !important;
+  position: absolute !important;
+  top: 10vw !important;
+  left: 15vw !important;
+}
+
+/* @media only screen and (max-width: 800px)
+{
+  .pos-btn-right
+  {
+    display: flex !important;
+  position: absolute !important;
+  top: 1vw !important;
+  right: 15vw !important;
+  }
+}  
+@media screen and (min-width: 1024px) , screen and (min-height: 768px)
+{
+  .pos-btn-right
+  {
+display: flex !important;
+  position: absolute !important;
+top: 11vw;
+    right: 12vw;
+  }
+}
+.jss137 {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 14rem;
+}
+
+ */
+button:focus {
+  outline: 0;
+  outline: 0 auto -webkit-focus-ring-color;
+}
+.btn-clr .MuiButton-root:hover {
+  background-color: rgb(transparent, transparent,transparent);
+}
