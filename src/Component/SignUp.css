@@ -2,10 +2,6 @@
 {
   background-color: #186ab4;
 }
-.sub-cl .makeStyles-avatar-136
-{
-  display:none;
-}
 .sub-cl .makeStyles-paper-135
 {
   margin-top: 10px;
@@ -32,4 +28,9 @@
 {
   margin-bottom: 17rem !important;
 }
+}
+
+.sub-cl .MuiInputLabel-shrink
+{
+  display: none !important;
 }
