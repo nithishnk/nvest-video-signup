@@ -72,7 +72,7 @@ export default function HorizontalLabelPositionBelowStepper() {
             <div className="row d-flex justify-content-center">
               <div>
               <Button className="pos-btn-right"  onClick={handleNext}>
-                {activeStep === steps.length - 1  ? <div className="nne"></div> : <i class="sze fa fa-chevron-right" aria-hidden="true"></i>}
+                {activeStep === steps.length - 1  ? <span className="nne">nne</span> : <i class="sze fa fa-chevron-right" aria-hidden="true"></i>}
               </Button>
             </div>
             </div>

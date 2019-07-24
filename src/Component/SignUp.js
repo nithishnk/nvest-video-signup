@@ -14,17 +14,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import './SignUp.css'
 
-function MadeWithLove() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {''}
-      <Link color="inherit" href="#">
-       
-      </Link>
-      {''}
-    </Typography>
-  );
-}
+
 
 const useStyles = makeStyles(theme => ({
   '@global': {
@@ -117,7 +107,7 @@ export default function SignUp() {
         </form>
       </div>
       <Box mt={5}>
-        <MadeWithLove />
+        
       </Box>
     </Container>
     </div>
