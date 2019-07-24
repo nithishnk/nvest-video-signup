@@ -65,3 +65,11 @@ button:focus {
 .btn-clr .MuiButton-root:hover {
   background-color: rgb(transparent, transparent,transparent);
 }
+.cir-clr .MuiStepIcon-root.MuiStepIcon-active
+{
+  color:#186ab4 !important;
+}
+.cir-clr  .MuiStepIcon-root.MuiStepIcon-completed
+{
+  color:#186ab4 !important;
+}

@@ -59,6 +59,7 @@ export default function HorizontalLabelPositionBelowStepper() {
 
   return (
     <div className={classes.root}>
+    <div className="cir-clr">
     <div className="btn-clr">
         {activeStep === steps.length ? (
           <div>
@@ -78,6 +79,7 @@ export default function HorizontalLabelPositionBelowStepper() {
           </div>
         )}
       </div>
+      
       <Stepper activeStep={activeStep} alternativeLabel>
         {steps.map(label => (
           <Step key={label}>
@@ -85,6 +87,7 @@ export default function HorizontalLabelPositionBelowStepper() {
           </Step>
         ))}
       </Stepper>
+      </div>
      </div>
   );
 }
